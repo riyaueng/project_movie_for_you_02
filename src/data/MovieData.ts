@@ -1,4 +1,4 @@
-type Movie = {
+export type Movie = {
   title: string
   year: string
   director: string
