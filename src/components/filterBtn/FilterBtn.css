@@ -1,0 +1,17 @@
+.filter_btn {
+  font-weight: 700;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06rem;
+  border: 1px solid #ff621f;
+  border-radius: 5rem;
+  height: 2rem;
+  width: 25rem;
+  margin-bottom: 0.5rem;
+  flex: 1;
+}
+
+.filter_btn:active {
+  background-color: #ff621f;
+  color: white;
+}

@@ -1,0 +1,46 @@
+header {
+  font-weight: 800;
+}
+
+h1 {
+  font-size: 3rem;
+  margin: 1rem;
+}
+
+header p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.section_filter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.div_filter_field,
+.div_filter_btn {
+  width: 30rem;
+  margin-bottom: 0.5rem;
+}
+
+.div_search_field input {
+  border: 0;
+  border-radius: 5rem;
+  height: 2rem;
+}
+
+.div_search_field input {
+  width: 18rem;
+  padding: 1rem;
+}
+
+.div_filter_btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 0.3rem;
+}

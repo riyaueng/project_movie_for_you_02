@@ -9,7 +9,7 @@ interface FilterBtnProps {
 export default function FilterBtn(props: FilterBtnProps) {
   return (
     <>
-      <button type="button" id={props.id} onClick={props.onClick}>
+      <button type="button" className="filter_btn" id={props.id} onClick={props.onClick}>
         {props.text}
       </button>
     </>

@@ -25,7 +25,7 @@ export default function MovieDetails() {
         </div>
         <div className="wrapper_movie_facts">
           <p>⏳ {movieInfo.duration}</p>
-          <p>🎞️ {movieInfo.genre}</p>
+          <p>🎞️ {movieInfo.genre.join(", ")}</p>
           <p>⭐️ {movieInfo.rate}</p>
         </div>
       </section>

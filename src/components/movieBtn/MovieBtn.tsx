@@ -8,9 +8,11 @@ interface MovieBtnProps {
 export default function MovieBtn(props: MovieBtnProps) {
   return (
     <>
-      <Link to={props.link} className="btn_link">
-        Movie details
-      </Link>
+      <div className="moviecard_btn">
+        <Link to={props.link} className="btn_link">
+          Movie details
+        </Link>
+      </div>
     </>
   )
 }

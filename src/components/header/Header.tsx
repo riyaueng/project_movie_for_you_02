@@ -55,7 +55,12 @@ export default function Header(props: HeaderProps) {
 
         <section className="section_filter">
           <div className="div_search_field">
-            <input type="text" id="input_text" onChange={(event) => setSearchMovie(event.target.value)} />
+            <input
+              type="text"
+              id="input_text"
+              onChange={(event) => setSearchMovie(event.target.value)}
+              placeholder="Search for a movie"
+            />
             {/* <button type="button" id="btn_search">
               Search
             </button> */}
@@ -68,7 +73,7 @@ export default function Header(props: HeaderProps) {
             <FilterBtn id="a-z" text="A-Z" onClick={listAZ} />
             <FilterBtn id="z-a" text="Z-A" onClick={listZA} />
 
-            {/* Genre lieber besser Select Options filtern! */}
+            {/* Genre besser mit Select Options filtern! */}
             {/* <FilterBtn id="genre" text="Genre" /> */}
           </div>
         </section>

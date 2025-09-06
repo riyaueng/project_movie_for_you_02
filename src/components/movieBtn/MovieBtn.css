@@ -1,0 +1,8 @@
+.moviecard_btn a {
+  font-size: 0.8rem;
+  text-decoration: none;
+  color: white;
+  background-color: #ff621f;
+  padding: 0.6rem 1.6rem;
+  border-radius: 2rem;
+}
