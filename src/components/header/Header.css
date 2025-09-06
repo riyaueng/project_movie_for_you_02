@@ -1,5 +1,6 @@
 header {
   font-weight: 800;
+  margin-bottom: 2rem;
 }
 
 h1 {
@@ -24,6 +25,9 @@ header p {
 .div_filter_btn {
   width: 30rem;
   margin-bottom: 0.5rem;
+}
+.div_search_field {
+  margin-bottom: 0.8rem;
 }
 
 .div_search_field input {

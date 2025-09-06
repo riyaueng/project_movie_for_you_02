@@ -19,14 +19,25 @@ export default function MovieDetails() {
     <>
       <section className="section_movie_details">
         <h2>{movieInfo.title}</h2>
-        <div className="wrapper_movie_text">
-          <p>Director: {movieInfo.director}</p>
-          <p>Release year: {movieInfo.year}</p>
-        </div>
-        <div className="wrapper_movie_facts">
-          <p>⏳ {movieInfo.duration}</p>
-          <p>🎞️ {movieInfo.genre.join(", ")}</p>
-          <p>⭐️ {movieInfo.rate}</p>
+        <div className="wrapper_movie_text_img">
+          <div className="wrapper_movie_text">
+            <div className="wrapper_movie_info">
+              <p>
+                Director: <span> {movieInfo.director}</span>
+              </p>
+              <p>
+                Release year: <span>{movieInfo.year}</span>{" "}
+              </p>
+            </div>
+            <div className="wrapper_movie_facts">
+              <p>⏳ {movieInfo.duration}</p>
+              <p>🎞️ {movieInfo.genre.join(", ")}</p>
+              <p>⭐️ {movieInfo.rate}</p>
+            </div>
+          </div>
+          <div className="wrapper_movie_img">
+            <img src="https://picsum.photos/200/260" alt="Randoom Image" />
+          </div>
         </div>
       </section>
     </>
